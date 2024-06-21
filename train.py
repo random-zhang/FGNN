@@ -308,7 +308,7 @@ if __name__ == '__main__':
     #args.fp_dim=500
     # args.ratio = 0.0
     # args.ratio=0.3
-    args.fp_dim = 700
+    #args.fp_dim = 700
     #args.ratio = 0.1
 
     fp_2513(args)
