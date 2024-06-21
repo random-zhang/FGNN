@@ -32,7 +32,10 @@
 
 ## Usage
 ### train and validation   
-`python train.py --task_name xxx --split_type xxx --fp_dim xxxx --select_method xxx`   
+`python train.py --task_name xxx --split_type xxx --fp_dim xxxx --select_method xxx`  
+### for example 
+`python train.py --task_name bbbp --split_type random --fp_dim 2300 --select_method selected`  
+
 ### predict   
 `python predict.py --task_name xxx --split_type xxx --fp_dim xxxx --select_method xxx`
 
