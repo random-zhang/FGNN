@@ -9,7 +9,7 @@ from rdkit import Chem
 from rdkit.Chem.Draw import rdMolDraw2D
 from torch import nn
 from torch_geometric.explain import PGExplainer
-from search import serach
+
 import tool
 from Model.compare import gci_rnn, gci_gru, gci_lstm, gci_fc, gci_noweight
 from Model.layer.lstmlayer import GATLayerOut, GATLayerAndWeight, GATLayer, GATLayerOut_single
